@@ -70,7 +70,7 @@ aside {
 .con-lg {
     padding: 10px;
     background-color: #8C2A1766;
-    box-shadow: #422817 12px 12px 12px;
+    box-shadow: #422817 12px 12px 12px,;
     width: 600px;
 }
 
@@ -90,24 +90,23 @@ aside {
     column-count: 2;
 }
 
-.hero {
+.big-img {
     position: relative;
     margin: 0px;
-    height: 400px;
-    width: 450px;
-    background-image: linear-gradient(to bottom, #D1A25355, #8C2A1755), url('../media/img/Hestia_Giustiniani.jpg');
     background-repeat: no-repeat;
     border-radius: 50px;
 }
 
+.hero {
+    height: 400px;
+    width: 450px;
+    background-image: linear-gradient(to bottom, #D1A25355, #8C2A1755), url('../media/img/Hestia_Giustiniani.jpg');
+}
+
 .next {
-    position: relative;
-    margin: 0px;
     height: 600px;
     width: 450px;
     background-image: radial-gradient(#ffffff55, #8C2A1700), url('../media/img/bulb-aflame.jpg');
-    background-repeat: no-repeat;
-    border-radius: 50px;
     background-position: center;
 }
 
@@ -183,6 +182,7 @@ video {
     justify-content: center;
     border-radius: 300px 300px 90px 90px;
     margin-top: 30px;
+    margin-left: 8px;
   }
 
 .medium {
@@ -227,14 +227,28 @@ header {
     z-index: 1;
 }
 
+.header-text {
+    position: absolute;
+    font-size: 37px;
+    line-height: 80%;
+    margin-left: 85px;
+    text-shadow: #D1A253 1px 1px 4px;
+}
+
 .pattern {
     background-image: linear-gradient(to right, #8C2A17, #8C2A17ee, #8C2A17), url('../media/img/plant.jpg');
+    border: #42281725 solid 1px;
+}
+
+.light-text {
+    color: #D1A253;
 }
 
 .logo {
     position: relative;
     margin: -5px;
-    background-color: #42281755;
+    background-color: #42281760;
+    border: #42281744 solid 2px;
     }
     
 footer {
@@ -252,6 +266,10 @@ footer {
     margin: auto;
     width: 90%;
     padding: 8px;
+}
+
+.buffer {
+    margin-top: 40px;
 }
 
 li:hover, input[type=submit]:hover, .logo:hover {
