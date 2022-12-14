@@ -140,7 +140,6 @@ h2 {
 }
 
 body {
-    height: 100%;
     background-image: linear-gradient(#8C2A17,#B4482B,#AF612C,#D1A253);
     background-attachment: fixed;
     font-family: 'GFS Neohellenic', sans-serif;
@@ -285,4 +284,45 @@ a:hover, .fa-brands:hover {
 .con-med:active, .fa-brands:active, a:active {
     color: white;
     text-shadow: white 0px 0px 13px;
+}
+
+.share {
+    margin-right: -55px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #AF612Caa;
+    border: #D1A25366 2px solid;
+    top: 80%;
+    position: sticky;
+    float: right;
+    box-shadow: #D1A253 0px 0px 10px;
+}
+
+.share:hover {
+    box-shadow: white 0px 0px 20px;
+    background-color: #AF612C;
+    border: #D1A253 2px solid;
+}
+
+.bullseye {
+    margin-left: 15%;
+    top: 3px;
+    position: relative;
+    color: #D1A25399;
+    }
+
+.bullseye:hover {
+    color: #422817;
+}
+    
+.bullseye:hover::before {
+    content: 'share article';
+    float: right;
+    color: #422817;
+    background: #D1A253;
+    border-radius: 50%;
+    padding: 16px;
 }
