@@ -129,11 +129,9 @@ aside {
     font-size: 40px;
 }
 
-
-
 .rad-grad {
     pointer-events: none;
-    background-image: radial-gradient(#ffffffcc, #ffffffcc, #00000000, #00000000, #00000000);
+    background: radial-gradient(circle, #ffffffcc 15%, #ffffff99 30%, #00000000 40%);
     width: 600px;
     height: 280px;
     position: relative;
@@ -236,6 +234,7 @@ header {
     line-height: 80%;
     margin-left: 85px;
     text-shadow: #D1A253 1px 1px 4px;
+    color: #422817;
 }
 
 .pattern {
@@ -258,9 +257,9 @@ footer {
     padding: 10px;
     position: relative;
     bottom: 0;
-    width: 100%;
+    width: auto;
     height: 50px;
-    margin-left: -8px;
+    margin: -8px;
 }
 
 .hcenter {
