@@ -47,12 +47,6 @@ textarea {
     font-size: 15px;
 }
 
-aside {
-    float: right;
-    width: 30%;
-    font-size: 19.4px;
-}
-
 .clear-fix {
     clear: both;
 }
@@ -71,7 +65,8 @@ aside {
     padding: 10px;
     background-color: #8C2A1766;
     box-shadow: #422817 12px 12px 12px,;
-    width: 600px;
+    width: 70%;
+    max-width: 600px;
 }
 
 .con-med {
@@ -84,6 +79,17 @@ aside {
     padding: 4px 14px;
     background-color: #B4482B;
     border-radius: 20px 20px 0px 0px;
+}
+
+.button {
+    min-width: 100px;
+    text-align: center;
+}
+
+aside {
+    float: right;
+    width: 30%;
+    font-size: 19.4px;
 }
 
 .column {
@@ -99,13 +105,14 @@ aside {
 
 .hero {
     height: 400px;
-    width: 450px;
+    width: 80%;
     background-image: linear-gradient(to bottom, #D1A25355, #8C2A1755), url('../media/img/Hestia_Giustiniani.jpg');
+    background-position-x: center;
 }
 
 .wip {
     height: 600px;
-    width: 450px;
+    width: 80%;
     background-image: radial-gradient(#ffffff55, #8C2A1700), url('../media/img/bulb-aflame.jpg');
     background-position: center;
 }
@@ -146,6 +153,7 @@ body {
     background-attachment: fixed;
     font-family: 'GFS Neohellenic', sans-serif;
     font-weight: 700;
+    min-width: 580px;
 }
 
 main {
@@ -161,6 +169,10 @@ html {
 	left: 50%;
     transform: translate(-50%);
     text-align: center;
+}
+
+iframe {
+    width: 50%;
 }
 
 video {
