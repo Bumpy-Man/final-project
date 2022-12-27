@@ -153,7 +153,6 @@ body {
     background-attachment: fixed;
     font-family: 'GFS Neohellenic', sans-serif;
     font-weight: 700;
-    min-width: 580px;
 }
 
 main {
@@ -213,13 +212,8 @@ ul {
 }
 
 li {
-    font-size: 22.4px;
     display: inline;
-    transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    margin-right: 16px;
-    top:50%;
-    padding: 2px;
+    font-size: 22.4px;
     font-weight: 700;
     }
 
