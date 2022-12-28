@@ -170,10 +170,6 @@ html {
     text-align: center;
 }
 
-iframe {
-    width: 50%;
-}
-
 video {
     object-fit: cover;
     height: 100%;
@@ -213,7 +209,7 @@ ul {
 
 li {
     display: inline;
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-weight: 700;
     }
 
@@ -342,4 +338,18 @@ a:hover, .fa-brands:hover {
     background-color: #AF612C;
     border: #D1A253 2px solid;
     color: #422817;
+}
+
+.anchor-hitbox {
+    display: block;
+    float: left;
+    
+}
+
+.inblock {
+    display: inline-block;
+}
+
+.navi {
+    margin-top: -22.5px;
 }
