@@ -67,6 +67,7 @@ textarea {
     box-shadow: #422817 12px 12px 12px,;
     width: 70%;
     max-width: 600px;
+    min-width: 400px;
 }
 
 .con-med {
@@ -168,6 +169,10 @@ html {
 	left: 50%;
     transform: translate(-50%);
     text-align: center;
+}
+
+.nudge-left {
+    margin-left: -60px;
 }
 
 video {
@@ -343,7 +348,6 @@ a:hover, .fa-brands:hover {
 .anchor-hitbox {
     display: block;
     float: left;
-    
 }
 
 .inblock {
